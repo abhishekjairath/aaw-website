@@ -2,10 +2,13 @@ html,body{
 	background: url('background.png');
 }
 
+
 .navigation{
 	background-color: #563d7c;
-	
+
+border-color: #563d7c;	
 }
+
 
 .navHome{
 	color:#fff !important;
@@ -13,18 +16,26 @@ html,body{
     filter:alpha(opacity=40);  /*for IE 8 and eralier*/
 }
 
+
 .navHome:hover {
 	color:#fff !important; 
 	opacity:1;
 }
+
 .btn-outline-inverse{
 	color: #fff !important;
 	border:none;
 }
+
 .btn-outline-inverse:hover {
 color: #563d7c !important;
 text-shadow: none;
 background-color: #fff !important ;
-border-color: #fff !important ;
+border-color: #563d7c !important ;
 }
 
+header{ text-align:center;}
+.content { background-color:RGB(255,255,255);text-align:center;width:70%;padding:2%;}
+.content1{opacity:1;font-size:18px;}
+.copy{font-size:20px;text-align:center;font-weight:bold;font-family:magneto,broadway,tahoma,Verdana,sans-serif;
+           background-color:RGB(255,255,255);margin:5px;padding:1%;}  
