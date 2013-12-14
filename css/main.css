@@ -1,0 +1,16 @@
+html,body{
+	background: url("images/background.png");
+}
+
+.navigation{
+	background-color:#463265; 
+	
+}
+
+.navMenu{
+	color: #ffffff;
+}
+.navMenu :hover{
+	background-color: #ffffff;
+	color: #463265 ; 
+	}
