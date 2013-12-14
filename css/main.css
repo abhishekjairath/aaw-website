@@ -1,16 +1,30 @@
 html,body{
-	background: url("images/background.png");
+	background: url('background.png');
 }
 
 .navigation{
-	background-color:#463265; 
+	background-color: #563d7c;
 	
 }
 
-.navMenu{
-	color: #ffffff;
+.navHome{
+	color:#fff !important;
+    opacity:0.6;  
+    filter:alpha(opacity=40);  /*for IE 8 and eralier*/
 }
-.navMenu :hover{
-	background-color: #ffffff;
-	color: #463265 ; 
-	}
+
+.navHome:hover {
+	color:#fff !important; 
+	opacity:1;
+}
+.btn-outline-inverse{
+	color: #fff !important;
+	border:none;
+}
+.btn-outline-inverse:hover {
+color: #563d7c !important;
+text-shadow: none;
+background-color: #fff !important ;
+border-color: #fff !important ;
+}
+
